@@ -98,4 +98,4 @@ State Transition Testing (Youtube Search Bar)
 | ST05    | Empty          | Typing vlogs before:2025-01-01                     | `Before`           | Search results show vlogs uploaded before 2025-01-01| Valid           |
 | ST06    | Before         | Search query for vlogs before:Jan-1                | `Unfiltered`       | Unfiltered search result, `SearchQueryError`        | Invalid         |
 | ST07    | Exclude Word   | Search query for SEO - tools                       | `Unfiltered`       | Unfiltered search result, `SearchQueryError`        | Invalid         |
-| ST08    | Exact Word     | Search query for "lofi hip hop                     | `Unfiltered`       | Unfiltered search result, `SearchQueryError`        | Invalid           |
+| ST08    | Exact Word     | Search query for "lofi hip hop                     | `Unfiltered`       | Unfiltered search result, `SearchQueryError`        | Invalid         |
